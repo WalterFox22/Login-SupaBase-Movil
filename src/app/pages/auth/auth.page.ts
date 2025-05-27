@@ -25,7 +25,8 @@ export class AuthPage {
       password: this.password,
     });
     if (error) this.error = error.message;
-    else this.router.navigate(['/home']);
+    //else this.router.navigate(['/home']);
+    else this.router.navigate(['/chat']);
   }
 
   async register() {
